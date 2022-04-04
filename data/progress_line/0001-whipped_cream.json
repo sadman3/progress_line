@@ -1,0 +1,67 @@
+[
+    {
+        "ingredient": "heavy cream",
+        "end_product": "whipped cream",
+        "state": [
+            {
+                "physical_state": "creamy",
+                "location": "carton"
+            },
+            {
+                "physical_state": "creamy",
+                "location": "measuring cup"
+            },
+            {
+                "physical_state": "creamy",
+                "location": "mixing bowl"
+            }
+        ],
+        "motion": [
+            "pour",
+            "pour",
+            "mix"
+        ]
+    },
+    {
+        "ingredient": "sugar",
+        "end_product": "whipped cream",
+        "state": [
+            {
+                "physical_state": "granulated",
+                "location": "spoon"
+            },
+            {
+                "physical_state": "granulated",
+                "location": "mixing bowl"
+            }
+        ],
+        "motion": [
+            "pour",
+            "mix"
+        ]
+    },
+    {
+        "ingredient": "whipped cream",
+        "end_product": "null",
+        "state": [
+            {
+                "physical_state": "creamy,whipped",
+                "location": "mixing bowl"
+            }
+        ],
+        "motion": [
+            "scrape"
+        ]
+    },
+    {
+        "ingredient": "# source:\thttp://foonets.com/foon_subgraphs/subgraphs/0001-whipped_cream.mp4",
+        "end_product": "//",
+        "state": [
+            {
+                "physical_state": "# Source:\thttps://www.youtube.com/watch?v=jWvoUR_s1Vs",
+                "location": []
+            }
+        ],
+        "motion": []
+    }
+]

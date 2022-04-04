@@ -1,0 +1,53 @@
+body {
+  font-family: system-ui;
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  color: DarkMagenta;
+}
+
+div {
+  font-family: system-ui;
+  background: whitesmoke;
+  color: black;
+  text-align: left;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: black;
+  margin-bottom: 14px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+button {
+  font-size: 20px;
+}
+
+.ingredient {
+  font-weight: bold;
+  color: blue;
+  text-transform: capitalize;
+}
+
+p {
+  margin-bottom: 0.4em;  
+  margin-top: 0.2em;
+}
+
+#successMsg {
+  font-weight: bold;
+  color: Green;
+  display: none;
+}
+
+#taskTreeDiv {
+  margin-bottom: 0.5em;  
+  margin-top: 0.5em;
+}
