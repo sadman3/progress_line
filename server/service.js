@@ -38,12 +38,18 @@ function readTaskTree(fileName) {
 
 function writeTaskTree(fileName, fileData) {
     var filepath = baseTaskTreePath + fileName;
-    console.log(fileData)
-    // fs.writeFile(filepath, fileData, (err) => {
-    //     if (err) throw err;
-    //     console.log('Data written to file');
-    // });
-      
+
+    var task_tree = ""
+    for (var i = 0; i < fileData.length; i++) {
+        task_tree += fileData[i]
+        if (i < fileData.length - 1) {
+            task_tree += "\n";
+        }
+    }
+    fs.writeFile(filepath, task_tree, (err) => {
+        if (err) throw err;
+        console.log('Data written to file');
+    });      
 }
 
 
